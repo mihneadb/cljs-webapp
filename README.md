@@ -2,6 +2,8 @@
 
 A Leiningen template for CLJS webapps.
 
+Comes with two cljsbuild configs - `dev` and `prod`. There's also an `index.html`.
+
 ## License
 
 Copyright © 2013 mihneadb
