@@ -3,7 +3,7 @@
 A Leiningen template for CLJS webapps.
 
 Comes with two cljsbuild configs - `dev` and `prod`.
-There's also an `index.html` including the generated jS.
+There's also an `index.html` including the generated JS.
 
 ## License
 
