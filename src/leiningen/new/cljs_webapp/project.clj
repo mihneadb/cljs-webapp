@@ -13,7 +13,8 @@
                    :source-paths ["src-cljs"]
                    :compiler {:output-to "resources/public/js/cljs.js"
                               :optimizations :whitespace
-                              :pretty-print true}}
+                              :pretty-print true
+                              :source-map "resources/public/js/cljs.js.map"}}
              :prod {
                     :source-paths ["src-cljs"]
                     :compiler {:output-to "resources/public/js/cljs.js"
