@@ -12,6 +12,7 @@
     (main/info "Generating fresh cljs-webapp project..")
     (->files data
              ["project.clj" (render "project.clj" data)]
+             [".gitignore" (render ".gitignore" data)]
              ["LICENSE" (render "LICENSE" data)]
              ["resources/public/index.html" (render "index.html" data)]
              ["src-cljs/{{sanitized}}/main.cljs" (render "main.cljs" data)])
