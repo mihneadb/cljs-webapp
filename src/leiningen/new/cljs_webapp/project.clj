@@ -4,19 +4,16 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/clojurescript "0.0-1978"]]
-  :plugins [[lein-cljsbuild "0.3.4"]]
+                 [org.clojure/clojurescript "0.0-2080"]]
+  :plugins [[lein-cljsbuild "1.0.1-SNAPSHOT"]]
 
   :cljsbuild {
     :builds {
              :dev {
                    :source-paths ["src-cljs"]
                    :compiler {:output-to "resources/public/js/cljs.js"
-                              :optimizations :whitespace
+                              :output-dir "resources/public/js"
+                              :optimizations :none
                               :pretty-print true
-                              :source-map "resources/public/js/cljs.js.map"}}
-             :prod {
-                    :source-paths ["src-cljs"]
-                    :compiler {:output-to "resources/public/js/cljs.js"
-                               :optimizations :advanced}}}})
+                              :source-map "resources/public/js/cljs.js.map"}}}})
 

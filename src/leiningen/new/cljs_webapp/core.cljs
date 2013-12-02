@@ -1,4 +1,4 @@
-(ns {{name}}.main)
+(ns {{name}}.core)
 
 (.write js/document "Hello!")
 

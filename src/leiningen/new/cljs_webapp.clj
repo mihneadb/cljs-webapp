@@ -15,7 +15,7 @@
              [".gitignore" (render ".gitignore" data)]
              ["LICENSE" (render "LICENSE" data)]
              ["resources/public/index.html" (render "index.html" data)]
-             ["src-cljs/{{sanitized}}/main.cljs" (render "main.cljs" data)])
+             ["src-cljs/{{sanitized}}/core.cljs" (render "core.cljs" data)])
     (main/info "Start right away with `lein cljsbuild auto dev`"
                "and check out resources/public/index.html!")))
 
