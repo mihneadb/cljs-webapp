@@ -8,6 +8,7 @@
   "Create a new cljs webapp project"
   [name]
   (let [data {:name name
+              :js_name (clojure.string/replace name "-" "_")
               :sanitized (name-to-path name)}]
     (main/info "Generating fresh cljs-webapp project..")
     (->files data
