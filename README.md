@@ -16,12 +16,11 @@ Start the auto rebuild loop:
     cd myapp
     lein cljsbuild auto dev
 
-Now open `resources/public/index.html` in a browser either directly or by
-running a web server in `resources/public`.
+Now fire up a Web server in `resources/public`.
 
 ## License
 
-Copyright © 2013 mihneadb
+Copyright © 2013 Mihnea Dobrescu-Balaur
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
