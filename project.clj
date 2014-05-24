@@ -1,4 +1,4 @@
-(defproject cljs-webapp/lein-template "0.1.7"
+(defproject cljs-webapp/lein-template "0.1.8"
   :description "Lein template for cljs webapp."
   :url "http://github.com/mihneadb/cljs-webapp"
   :license {:name "Eclipse Public License"
